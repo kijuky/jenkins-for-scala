@@ -3,7 +3,7 @@ lazy val root = project
   .settings(
     name := "jenkins-for-scala",
     scalaVersion := "2.12.20",
-    crossScalaVersions := Seq(scalaVersion.value, "3.3.4"),
+    crossScalaVersions := Seq(scalaVersion.value, "3.3.5"),
     resolvers += "JCenter" at "https://jcenter.bintray.com/",
     libraryDependencies ++= Seq("io.github.cdancy" % "jenkins-rest" % "1.0.2")
   )
